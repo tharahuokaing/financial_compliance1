@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HT Banking System - Financial Compliance & Audit Node</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="bank.jpg">
+</head>
+<body>
+
+    <div class="compliance-dashboard">
+        <!-- Module Header -->
+        <header class="module-header">
+            <div class="title-area">
+                <h2>FINANCIAL COMPLIANCE & PROTOCOL AUDITOR</h2>
+                <p>Huokaing Thara Banking System • Anti-Money Laundering (AML) & Risk Oversight</p>
+            </div>
+            <div class="action-buttons">
+                <button id="runDiagnosticBtn" class="btn-secondary">Run Core Diagnostic</button>
+                <button id="flagReviewBtn" class="btn-primary">Generate Audit Report</button>
+            </div>
+        </header>
+
+        <!-- Compliance Threshold Metrics -->
+        <section class="metrics-row">
+            <div class="metric-card">
+                <span class="card-label">AML Risk Index</span>
+                <h2 id="riskIndexText">Nominal</h2>
+                <p class="card-subtext state-success">● Under AML threshold parameters</p>
+            </div>
+            <div class="metric-card">
+                <span class="card-label">Flagged Flag Count</span>
+                <h2 id="flaggedCountText">0</h2>
+                <p class="card-subtext state-warning">Awaiting manual compliance validation</p>
+            </div>
+            <div class="metric-card">
+                <span class="card-label">ISO 20022 Alignment</span>
+                <h2>100%</h2>
+                <p class="card-subtext state-normal">Message definitions verified</p>
+            </div>
+        </section>
+
+        <!-- Compliance Ledger Panel Grid -->
+        <section class="ledger-container">
+            <div class="ledger-controls">
+                <!-- Filter Tabs Group -->
+                <div class="filter-tabs" id="complianceTabsGroup">
+                    <button class="tab-btn active" data-filter="all">All Alerts</button>
+                    <button class="tab-btn" data-filter="high">High Risk</button>
+                    <button class="tab-btn" data-filter="medium">Medium Risk</button>
+                    <button class="tab-btn" data-filter="resolved">Resolved</button>
+                </div>
+                <!-- Dynamic Rule Identifier Search -->
+                <div class="search-box">
+                    <input type="text" id="complianceSearchInput" placeholder="Search rules or accounts...">
+                </div>
+            </div>
+
+            <!-- Audit Rule Verification Table Matrix -->
+            <div class="table-wrapper">
+                <table class="compliance-table">
+                    <thead>
+                        <tr>
+                            <th>Protocol ID</th>
+                            <th>Regulatory Directive</th>
+                            <th>Target Ledger Target</th>
+                            <th>Severity Flag</th>
+                            <th>Value Volume</th>
+                            <th>Audit Verification Timestamp</th>
+                            <th>Action State</th>
+                        </tr>
+                    </thead>
+                    <tbody id="complianceTableBody">
+                        <!-- Rendered dynamically by financial_compliance.js -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script src="financial_compliance.js"></script>
+    <script src="ultra_secure_mode.js"></script>
+</body>
+</html>
