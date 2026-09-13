@@ -5,14 +5,41 @@
        COMPLIANCE VERIFICATION PROTOCOLS REGISTRY
     ========================================================= */
     const AUDIT_REGISTRY = [
-        { id: "CMP-ISO-01", law: "ISO 20022 Schema Check", target: "Core Clearing Interbank Link", severity: "low", volume: 0, time: "10:14:22", status: "Resolved" },
-        { id: "CMP-AML-04", law: "Velocity Threshold Breach (> $50k)", target: "Acc...9912 (Sengchhat)", severity: "high", volume: 75000.00, time: "11:05:19", status: "Flagged" },
-        { id: "CMP-KYC-09", law: "Missing Corporate Verification Map", target: "Acc...4412 (Mengly)", severity: "medium", volume: 5000.00, time: "12:44:01", status: "In Review" },
-        { id: "CMP-AML-02", law: "Structured Layering Evaluation Sweep", target: "Acc...0029 (Leyu)", severity: "high", volume: 12450.00, time: "14:20:55", status: "Flagged" },
-        { id: "CMP-SAN-11", law: "OFAC SDN Cross-Reference Scan", target: "Acc...1092 (Vanneat)", severity: "low", volume: 320.50, time: "15:02:11", status: "Resolved" },
-        { id: "CMP-PEP-07", law: "Politically Exposed Person Monitor", target: "Acc...8841 (Thorn)", severity: "medium", volume: 1250.00, time: "15:45:30", status: "Resolved" }
-    ];
-
+        { id: "CMP-ISO-01", law: "ISO 20022 Schema Check", target: "Core Clearing Interbank Link", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-AML-01", law: "Suspicious Activity Pattern", target: "Acc...90218 (SvayMetrey)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-KYC-01", law: "Identity Verification Sweep", target: "Acc...90219 (ChornRothanak)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-RTGS-01", law: "Large Value Transfer Monitor", target: "Acc...90220 (ChumchanRothanak)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-AML-02", law: "Account Activity Audit", target: "Acc...90221 (LongLain)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-KYC-02", law: "Customer Profile Review", target: "Acc...90222 (PhaychanRothana)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-MICRO-01", law: "Micro-Transaction Trace", target: "Acc...90223 (HuokaingThara)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-AML-03", law: "Dormant Account Sweep", target: "Acc...90224 (SanSopheata)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-KYC-03", law: "Standard Verification Check", target: "Acc...90225 (SamsoDavin)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-AML-05", law: "High Value Outflow Alert", target: "Acc...90226 (Leda)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-PEP-07", law: "Politically Exposed Person Monitor", target: "Acc...90227 (Thorn)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-SAN-11", law: "OFAC SDN Cross-Reference Scan", target: "Acc...90228 (Vanneat)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-KYC-09", law: "Missing Corporate Verification Map", target: "Acc...90229 (Mengly)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-AML-02", law: "Structured Layering Evaluation Sweep", target: "Acc...90230 (Leyu)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-AML-04", law: "Velocity Threshold Breach (> $50k)", target: "Acc...90231 (Sengchhat)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-MICRO-02", law: "Micro-Transaction Trace", target: "Acc...90232 (Do)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-MICRO-03", law: "Micro-Transaction Trace", target: "Acc...90233 (Jav)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-AML-06", law: "Threshold Monitoring Breach", target: "Acc...90234 (Kimmuy)", severity: "high", volume: 10000000.00, time: "11:58:11", status: "In Review" },
+        { id: "CMP-MICRO-04", law: "Micro-Transaction Trace", target: "Acc...90235 (Dom)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-RTGS-02", law: "Interbank Settlement Verification", target: "Acc...90327 (Chansamnang)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-RTGS-03", law: "Interbank Settlement Verification", target: "Acc...90238 (Nouvichaka)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-ISO-02", law: "ISO Gateway Audit", target: "Acc...90239 (Men)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-ISO-03", law: "Outflow Velocity Monitor", target: "Acc...90240 (Sok Rachana)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-ISO-04", law: "ISO Gateway Routine Check", target: "Acc...90241 (Sok Khemera)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-KYC-04", law: "Standard Account Scan", target: "Acc...90242 (Huo)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-AML-07", law: "High Volume Threshold Monitor", target: "Acc...90423 (Khen Lyda)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-KYC-05", law: "Standard Verification Check", target: "Acc...90244 (B)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-KYC-06", law: "Standard Verification Check", target: "Acc...90245 (Huokaing Tharoth)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-AML-08", law: "Bulk Sweep Outflow Monitor", target: "Acc...90246 (Tek Hy)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-RMG-01", law: "Retail Mobile Transfer Scan", target: "Acc...90247 (Phann)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-RMG-02", law: "Retail Mobile Transfer Scan", target: "Acc...90248 (Vichaka)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-KYC-07", law: "Standard Account Scan", target: "Acc...90249 (Nita)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
+        { id: "CMP-RMG-03", law: "Retail Gateway Monitor", target: "Acc...90250 (Raem)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" }
+];
+    
     let currentTabFilter = "all";
     let searchCriteria = "";
 
