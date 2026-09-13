@@ -22,7 +22,7 @@
         { id: "CMP-AML-04", law: "Velocity Threshold Breach (> $50k)", target: "Acc...90231 (Sengchhat)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
         { id: "CMP-MICRO-02", law: "Micro-Transaction Trace", target: "Acc...90232 (Do)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
         { id: "CMP-MICRO-03", law: "Micro-Transaction Trace", target: "Acc...90233 (Jav)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
-        { id: "CMP-AML-06", law: "Threshold Monitoring Breach", target: "Acc...90234 (Kimmuy)", severity: "high", volume: 10000000.00, time: "11:58:11", status: "In Review" },
+        { id: "CMP-AML-06", law: "Threshold Monitoring Breach", target: "Acc...90234 (Loy Kimmuy)", severity: "high", volume: 10000000.00, time: "11:11:11", status: "In Review" },
         { id: "CMP-MICRO-04", law: "Micro-Transaction Trace", target: "Acc...90235 (Dom)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
         { id: "CMP-RTGS-02", law: "Interbank Settlement Verification", target: "Acc...90327 (Chansamnang)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
         { id: "CMP-RTGS-03", law: "Interbank Settlement Verification", target: "Acc...90238 (Nouvichaka)", severity: "low", volume: 0.00, time: "00:00:00", status: "Resolved" },
